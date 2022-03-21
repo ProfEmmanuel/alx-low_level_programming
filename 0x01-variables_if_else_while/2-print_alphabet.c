@@ -10,7 +10,8 @@ int main(void)
 	int i = 97;
 	int newline = 10;
 
-	do{
+	do
+	{
 		putchar(i);
 		i++;
 	}while (i < 123);
