@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int i = 48,comma = 44, space = 32, newline = 10;
+	int i = 48, comma = 44, space = 32, newline = 10;
 
 	do {
 		putchar(i);
-		if(i < 57)
+		if (i < 57)
 		{
 			putchar(comma);
 			putchar(space);
