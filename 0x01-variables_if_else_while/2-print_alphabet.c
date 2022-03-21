@@ -8,11 +8,14 @@
 int main(void)
 {
 	int i = 97;
+	int newline = 10;
 
-	for(i; i <= 123; i++)
+	do
 	{
 		putchar(i);
+		i++;
 	}
-	printf("\n");
+	while (i < 123);
+	putchar(newline);
 	return (0);
 }
