@@ -10,15 +10,15 @@ int main(void)
 	int i = 97, newline = 10;
 
 	do {
-		if (i == 101) 
+		if (i == 101)
 		{
 			i++;
 		}
-		else if (i == 113) 
+		else if (i == 113)
 		{
 			i++;
 		}
-		else 
+		else
 		{
 			putchar(i);
 			i++;
