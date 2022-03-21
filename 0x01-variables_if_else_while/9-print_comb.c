@@ -10,10 +10,18 @@ int main(void)
 	int i = 48,comma = 44, space = 32, newline = 10;
 
 	do {
-		putchar(i);
-		putchar(comma);
-		putchar(space);
-		i++;
+		if(i < 57)
+		{
+			putchar(i);
+			putchar(comma);
+			putchar(space);
+			i++;
+		}
+		else
+		{
+			putchar(i);
+			i++;
+		}
 	} while
 	(i <= 57);
 	putchar(newline);
