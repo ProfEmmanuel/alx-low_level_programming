@@ -1,15 +1,10 @@
 #include "main.h"
 
 /**
- * main: Print the alphabet in lowercase
+ * print_alphabet: Print the alphabet in lowercase
  *
- * Return: 0
+ * Return: returns nothing
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
